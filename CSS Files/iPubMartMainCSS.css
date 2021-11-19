@@ -1,0 +1,40 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    width: fit-content;
+    
+}
+
+.welcomeText {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 45px;
+    top: 25px;
+}
+
+#firstText{
+    font-size: 20px;
+    color: #2b6777;
+    
+}
+#secondText {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.singleLetter{
+    color: #ff8300;
+}
+.loginBox{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    top: 65px;
+    left: 45px;
+    border-width: 0px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.3); 
+}
