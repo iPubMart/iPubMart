@@ -9,7 +9,7 @@ body, html{
   min-height: 100%;
 }
 body{
-  background-image: url("Images/BG1.jpg");
+  background-image: url("/Images/BG1.jpg");
   background-size:cover;
 }
 .welcomeText {
