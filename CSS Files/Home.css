@@ -14,13 +14,6 @@
     overflow: scroll;
   }
 
-
-.Notice{
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  left: 800px;
-  top: 200px;
-}
 .links{
   position:absolute;
   font-size: 14px;
@@ -192,4 +185,22 @@ form.searchbox button{
   .newitems img{
     size: 300px;
     margin: 50px;
+  }
+
+  @media (max-width: 500px){
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .links{
+      position:absolute;
+      font-size: 10px;
+      right: 50px;
+      top: 20px;
+      color: orange;
+    }
+
   }
