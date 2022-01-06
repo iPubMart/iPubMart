@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+body{
+    background-color:lightsteelblue;
+}
+button{
+    font-weight: bolder;
+    font-size: 23px;;
+    color: rgb(53, 53, 50);
+    background-color: lightcoral;
+    width:95px;
+    height:95px;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-color: chartreuse;
+    border-width: 3px;
+}
+
+#output{
+    height: 90px;
+    width: 395px;
+    text-align: right;
+    font-size: 80px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    background-color: burlywood;
+    color: rgb(36, 35, 35);
+
+}
+
+#container{
+    align-items: center;
+    border: black;
+    border-style: solid;
+    width:400px;
+    position:relative;
+    left: 580px;
+}
+
+#num0 {
+    width: 194px;
+}
+
+#clear {
+    width:392px;
+}
+
+#part1{
+    position :relative;
+    left:1px;
+}
+
+#calcu{
+    font-size: 100px;
+    text-align: center;
+    color:navy;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Page</h2>
+
+<h1 id="de"></h1>
+<form>
+    <textarea id="demo">0</textarea>
+</form>
+<button onclick="clickMe()"> click me</button>
+<button onclick="hehe()"> clickmeeeeee</button>
+<button onclick="answer()">answer</button>
+<br>
+<h1 id="answer"></h1>
+<script>
+    
+    document.getElementById("demo").innerHTML = "gahaha";
+    
+    function clickMe(){
+        var element = document.getElementById("demo");
+        var value = element.innerHTML;
+        value++;
+        document.getElementById("demo").innerHTML = value;
+        if(value>=11){
+            alert("huy tama na");
+            value = element.innerHTML = 0;
+        }
+        console.log(value);
+    }
+    function hehe(){
+        var element = document.getElementById("demo");
+        var value = element.innerHTML;
+        value--;
+        document.getElementById("demo").innerHTML = value;
+        if(value<=-1){
+            alert("huy tama na minos");
+            value = element.innerHTML = 0;
+        }
+        console.log(value);
+    }
+
+    function answer(){
+        var hehe = document.getElementById("demo").innerHTML;
+        var num2 = 24;
+        document.getElementById("demo").innerHTML = parseInt(hehe)+num2;
+    }
+</script>
+
+</body>
+</html>
